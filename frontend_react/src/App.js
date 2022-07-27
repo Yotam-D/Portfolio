@@ -10,7 +10,6 @@ function App() {
       <About/>
       <Work/>
       <Skills/>
-      <Skills/>
       <Testimonial/>
       <Footer/>
 
