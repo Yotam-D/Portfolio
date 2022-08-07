@@ -4,7 +4,7 @@ import {motion} from 'framer-motion';
 import AppWrap from '../../wrapper/AppWrap'
 import MotionWrap from '../../wrapper/MotionWrap';
 import './About.scss';
-import { images } from '../../constants';
+// import { images } from '../../constants';
 import {urlFor, client} from '../../client';
 
 // const abouts = [
@@ -36,7 +36,7 @@ const About = () => {
           >
             <img src={urlFor(about.imgUrl)} alt={about.title} />
             <h2 className='bold-text' style={{marginTop : 20}}>{about.title}</h2>
-            <p className='bold-text' style={{marginTop : 10}}>{about.description}</p>
+            <p className='p-text' style={{marginTop : 10 }}>{about.description}</p>
           </motion.div>
         ))}
       </div>
