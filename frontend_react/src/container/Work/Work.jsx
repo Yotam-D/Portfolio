@@ -39,7 +39,7 @@ const Work = () => {
 
   return (
     <>
-      <h2 className='head-text'>My Creative <span>Protfolio</span> Section</h2>
+      <h2 className='head-text'>My Creative <span>Portfolio</span> Section</h2>
       <div className='app__work-filter'>
         {['HTML & CSS', 'React & Node JS', 'All'].map((item,index) => (
           <div key = {index}
