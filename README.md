@@ -1,5 +1,5 @@
 # Portfolio
-My rrotfolio Project
+My portfolio Project
 
 backend using sanity
 
